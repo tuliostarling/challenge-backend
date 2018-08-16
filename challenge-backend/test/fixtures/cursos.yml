@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  instituicao: MyString
+  nome: MyString
+  notacurso: 1.5
+  mediaaluno: 1.5
+
+two:
+  instituicao: MyString
+  nome: MyString
+  notacurso: 1.5
+  mediaaluno: 1.5
