@@ -46,6 +46,6 @@ class CursosController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def curso_params
-      params.require(:curso).permit(:instituicao, :nome, :notacurso, :mediaaluno)
+      params.require(:curso).permit(:nome, :notacurso, :mediaaluno, :faculdades_id)
     end
 end

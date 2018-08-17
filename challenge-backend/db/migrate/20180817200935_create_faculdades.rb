@@ -1,6 +1,6 @@
-class CreateInstituicoes < ActiveRecord::Migration[5.2]
+class CreateFaculdades < ActiveRecord::Migration[5.2]
   def change
-    create_table :instituicoes do |t|
+    create_table :faculdades do |t|
       t.string :nome
       t.float :notageral
 

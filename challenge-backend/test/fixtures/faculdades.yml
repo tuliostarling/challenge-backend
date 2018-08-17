@@ -2,10 +2,8 @@
 
 one:
   nome: MyString
-  notacurso: 1.5
-  mediaaluno: 1.5
+  notageral: 1.5
 
 two:
   nome: MyString
-  notacurso: 1.5
-  mediaaluno: 1.5
+  notageral: 1.5

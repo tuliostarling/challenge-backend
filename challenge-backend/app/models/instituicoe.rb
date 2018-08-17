@@ -1,2 +1,0 @@
-class Instituicoe < ApplicationRecord
-end
