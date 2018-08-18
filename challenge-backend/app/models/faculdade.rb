@@ -1,3 +1,4 @@
 class Faculdade < ApplicationRecord
-    belongs_to :cursos
+    #scope :desc, -> { order('faculdades.notageral DESC') }
+    has_many :cursos, dependent: :delete_all
 end
